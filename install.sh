@@ -1,2 +1,6 @@
-rpm -i rpm/*
-pip install whl/*
+rpm -Uvh tool/*
+rpm -Uvh net/*
+rpm -Uvh cpp/*
+rpm -Uvh py/*
+
+pip3 install whl/*
